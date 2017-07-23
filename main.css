@@ -125,21 +125,8 @@ tfoot td {
 tfoot {
 	border-style: none;
 }
-/*.rating__sparklist {
-  /*overflow: visible;
-  margin: 0;
-  padding: 0;
-        &:hover, &:focus {
-          .sparkline {
-            transform: translate(200px) scale(4);
-          }
-          .index .count {
-            background-color: #0074d9;
-          }
-        }
-} */
 
-.sparkline:hover {
+.sparkline:hover, .sparkline:active {
     transform: translate(-100px) scale(3);
     opacity: 1;
 }
